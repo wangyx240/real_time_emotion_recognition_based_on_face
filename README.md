@@ -4,7 +4,7 @@
 It's a emotion recognition demo based on an image-only model. You can simply detect your own emotion through your computer camera. 
 It supports detecting emotion for multiple people, but it may have delay for more than 3 people. For only 1 face, the demo can reach about 20fps in cpu-only mode.
 
-The algorithm first uses OpenCV to extract faces from a frame, then uses an attention Resnet network to detectemotion from face.
+The algorithm first uses OpenCV to extract faces from each frame, then uses an attention Resnet network to detect emotion from faces.
 
 # How to run:
 1. Using detector.py to run.
