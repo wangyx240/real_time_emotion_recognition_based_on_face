@@ -12,5 +12,5 @@ The algorithm first uses OpenCV to extract faces from each frame, then uses an a
 3. To make the real-time detector work well, please use it when light condition is good.
 
 # To train your own model:
-The model is trained based the Ravness Dataset and I use OpenCV-tensorflow module to extract all the face area from dataset as training samples.
+The model is trained based the Ravdess Dataset and I use OpenCV-tensorflow module to extract all the face area from dataset as training samples.
 If you want to train your own dataset, please use traintest.py for training.
