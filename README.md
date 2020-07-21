@@ -9,7 +9,7 @@ The algorithm first uses OpenCV to extract faces from each frame, then uses an a
 # How to run:
 1. Using detector.py to run.
 2. If you don't have a cuda GPU with your machine, please modify the detect_emotion_image function in detector.py
-3. To make the real-time detector work well, please use it when light condition is good.
+3. To make the real-time detector work well, please make sure in good illumination
 
 # To train your own model:
 The model is trained based the Ravdess Dataset and I use OpenCV-tensorflow module to extract all the face area from dataset as training samples.
