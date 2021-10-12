@@ -3,7 +3,7 @@ setuptools>=41.0.0
 tensorflow-gpu>=1.5.0,<=1.12.0
 keras
 numpy<=1.14.5
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 matplotlib==3.1
 imutils==0.5
 pandas
